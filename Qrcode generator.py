@@ -16,10 +16,9 @@ def generate():
   Image = PhotoImage(file='Qrcode/'+str(name)+'.png')
   Image_view.config(image = Image)
 
-
+# GUI   
 Image_view = Label(root,bg = '#AE2321')
 Image_view.pack(padx = 50,pady = 10,side = RIGHT)
-
 
 title_label = Label(root,text = 'Title',fg = 'white',bg = '#ae2321',font = ('bold',17))
 title_label.place(x = 50 , y = 170)
