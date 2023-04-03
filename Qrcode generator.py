@@ -3,7 +3,7 @@ import qrcode
 
 root = Tk()
 root.geometry('860x550')
-root.title('Qr generator')
+root.title('QrCodeGenerator')
 root.config(bg = '#ae2321')
 root.resizable(False,False)
 
